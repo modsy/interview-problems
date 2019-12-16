@@ -1,10 +1,8 @@
-==========================
 Running the Sever
 ==========================
 - Run the following command in the directory where index.html is located: python -m SimpleHTTPServer
 - Navigate to http://localhost:8000 to load the page
 
-==========================
 Requirements
 ==========================
 
