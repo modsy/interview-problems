@@ -1,23 +1,17 @@
-Below is an exercise to be completed before your interview using whatever
-resources you would like (e.g. codepen, github, etc.). Plan on spending at least
-two hours on the exercise.
+# Modsy Frontend Engineering Exercise
 
-In your interview you will discuss your solution and your process.
+## Requirements
+- Using the Best Buy API below build a UI to display a list of products with the product name, image, price, and description
+- Build a secondary product detail view, showing more information about the product
+- We're looking looking code separation, readability, maintainability, testing, and error handling
 
-The solution:
+```
+https://api.bestbuy.com/v1/products(search=oven&search=stainless&search=steel)?format=json&show=all&apiKey=mPlbr5GXMVkagVgzwT7T2V5X
+```
 
-- should run with no errors (feel free to use any linting rules you prefer)
-- should be formatted and legible
-- should be well commented
-- the rendered elements should look professional
-- will use modern coding techniques (e.g. React Hooks)
-- will use a framework of your choice (React is preferred)
-
-The exercise has existing code which you should copy and paste into your
-editor of choice. The given code is a starting place, meant to be added to,
-but feel free to replace or remove code if you think you can improve your
-solution. Feel free to add extras. The exercise is meant to evaluate technical skills,
-not design. Be creative!
-
-For the requirements of the exercise see the description in the code snippet
-in index.html.
+## Bonus Points
+- State management
+- Pagination in the product list
+- Lazy Loading
+- Responsive Layout
+- Anything above and beyond the requirements
